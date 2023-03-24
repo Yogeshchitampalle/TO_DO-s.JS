@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To_Dos_Task_Manager</title>
+  <link rel="stylesheet" href="app.css">
+
+</head>
+
+<body>
+  <main>
+    <div class="watch">
+      <h1 id="dateHeading">Todays Date is ....</h1>
+    <div class="wrap">
+      <section class="heading">
+        <p class="title">To_Dos_Manager</p>
+        <p class="subtitle">Note Down You'r Task Here..!</p>
+      </section>
+      <section class="task-manager">
+        <div class="search-box">
+          <form class="search">
+            <input type="text" name="task" placeholder="Search_Task" autocomplete="of">
+            <i class="bi bi-x-circle reset "></i>
+          </form>
+        </div>
+        <div class="task-box">
+          <ul class="tasks">
+            <li>
+              <span>Solve DSA  </span>
+              <i class="bi bi-trash-fill delete "></i>
+              <i class="bi bi-pencil-square edit "></i>
+            </li>
+          </ul>
+          <form class="add">
+            <input type="text" name="task" placeholder="Add Task" autocomplete="off">
+            <input type="submit" value="Add">
+          </form>
+        </div>
+        <div class="message">
+          <span></span>
+          <button class="clear">Clear All</button>
+        </div>
+      </section>
+    </div>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
